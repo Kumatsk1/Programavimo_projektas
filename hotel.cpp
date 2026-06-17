@@ -20,7 +20,6 @@ struct Klientas {
     int id;
     string vardas;
     string pavarde;
-    string telefonas;
     int kambario_id; // kuriame kambaryje gyvena
 };
 
