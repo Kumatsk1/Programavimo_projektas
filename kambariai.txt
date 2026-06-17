@@ -1,0 +1,16 @@
+1 101 standart 50 laisvas 0
+2 102 standart 50 laisvas 0
+6 201 standart 55 laisvas 0
+7 202 standart 55 laisvas 0
+11 301 standart 60 laisvas 0
+12 302 standart 60 laisvas 0
+16 401 standart 65 laisvas 0
+3 103 lux 90 laisvas 0
+4 104 lux 90 laisvas 0
+8 203 lux 95 laisvas 0
+9 204 lux 95 laisvas 0
+13 303 lux 100 laisvas 0
+14 304 lux 100 laisvas 0
+5 105 deluxe 150 laisvas 0
+10 205 deluxe 160 laisvas 0
+15 305 deluxe 170 laisvas 0
