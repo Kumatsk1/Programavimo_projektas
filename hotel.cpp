@@ -270,7 +270,7 @@ void perziuretiKlienta() {
 
 // Prideti nauja kambari
 
-void pridétiKambarí() {
+void pridetiKambari() {
     if (kiekis >= 100) { cout << "Masyvas pilnas!\n"; return; }
 
     kambariai[kiekis].id         = kiekis + 1;
@@ -305,7 +305,7 @@ void pridétiKambarí() {
 
 // Pasalinti kambari
 
-void pasalintiKambarí() {
+void pasalintiKambari() {
     rodytiVisusKambarius();
 
     int id;
@@ -472,8 +472,8 @@ int main() {
         else if (pasirinkimas == 4) atlaisvintiKambari();
         else if (pasirinkimas == 5) perkeltiKlienta();
         else if (pasirinkimas == 6) perziuretiKlienta();
-        else if (pasirinkimas == 7) pridétiKambarí();
-        else if (pasirinkimas == 8) pasalintiKambarí();
+        else if (pasirinkimas == 7) pridetiKambari();
+        else if (pasirinkimas == 8) pasalintiKambari();
         else if (pasirinkimas == 9) ieskotiKambario();
         else if (pasirinkimas == 10) rikiuotiPagalKaina();
         else if (pasirinkimas == 11) {
