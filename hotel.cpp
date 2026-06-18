@@ -66,7 +66,6 @@ void nuskaitytiKlientusIsFailo() {
     while (failas >> klientai[klientu_kiekis].id
                   >> klientai[klientu_kiekis].vardas
                   >> klientai[klientu_kiekis].pavarde
-                  >> klientai[klientu_kiekis].telefonas
                   >> klientai[klientu_kiekis].kambario_id) {
         klientu_kiekis++;
     }
@@ -79,7 +78,6 @@ void irasytiKlientusIFaila() {
         failas << klientai[i].id         << " "
                << klientai[i].vardas     << " "
                << klientai[i].pavarde    << " "
-               << klientai[i].telefonas  << " "
                << klientai[i].kambario_id << "\n";
     }
     failas.close();
@@ -156,7 +154,6 @@ void rezervuotiKambari() {
             cin >> k.vardas;
             cout << "Iveskite kliento pavarde: ";
             cin >> k.pavarde;
-            k.telefonas = "-";
             k.kambario_id = id;
 
             klientai[klientu_kiekis] = k;
